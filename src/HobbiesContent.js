@@ -1,5 +1,5 @@
 import cp from './cp.gif'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './HobbiesContent.css'
 import HobbiesSelection from './HobbiesSelection'
 import lcw from './lcw.gif'
@@ -47,38 +47,38 @@ const HobbiesContent = () => {
             </div>
         </div>
         <div className='hobbies__right'>
-            {selection == 1 && 
+            {selection === 1 && 
                 (
                     <div>
-                        <iframe className="lichess" width={750} height={550} src="https://lichess.org/study/embed/1YpRlT9W/Z903xB5S" frameborder={0}></iframe>
+                        <iframe title="lichess" className="lichess" width={750} height={550} src="https://lichess.org/study/embed/1YpRlT9W/Z903xB5S" frameborder={0}></iframe>
                         <p><small className='lichess__text'>Source: https://www.lichess.org</small></p>
                         <p className='navigate__text'>Click on the options to the left to navigate</p>)
                     </div>
                 )
             }
-            {selection == 2 &&
+            {selection === 2 &&
                 (<div style={{textAlign: "center"}}>
                     <h5 style={{color: "white", marginBottom: "15px"}}>Guinness World Record - Most contributions to a Rubiks cube mosiac</h5>
-                    <img style={{marginBottom: "15px"}} src={gwr} height={400} width="auto"/>
-                    <p><a target="_blank" href="https://timesofindia.indiatimes.com/city/mangaluru/293-cubers-from-karnataka-all-set-to-enter-guinness-record/articleshow/69293464.cms">More about the Record</a></p>
+                    <img style={{marginBottom: "15px"}} src={gwr} height={400} width="auto" alt="guinnness"/>
+                    <p><a target="_blank" rel="noreferrer" href="https://timesofindia.indiatimes.com/city/mangaluru/293-cubers-from-karnataka-all-set-to-enter-guinness-record/articleshow/69293464.cms">More about the Record</a></p>
                     <p className='navigate__text'>Click on the options to the left to navigate</p>)
                 </div>)
             }
-            {selection == 3 &&
+            {selection === 3 &&
                 (<div>
-                    <img src={cp} height={425} width="auto"/>
+                    <img src={cp} height={425} width="auto" alt="competitive programming"/>
                     <p className='navigate__text'>Click on the options to the left to navigate</p>)
                 </div>)
             }
-            {selection == 4 &&
+            {selection === 4 &&
                 (<div>
-                    <img src={lcw} width={700} height="auto"/>
+                    <img src={lcw} width={700} height="auto" alt="lee chong wei"/>
                     <p className='navigate__text'>Click on the options to the left to navigate</p>)
                 </div>)
             }
-            {selection==0 && (
+            {selection===0 && (
                 <div>
-                    <img src={click} width={500} heigth="auto"/>
+                    <img src={click} width={500} heigth="auto" alt="click gif"/>
                     <p className='navigate__text'>Click on the options to the left to navigate</p>
                 </div>
                 )}

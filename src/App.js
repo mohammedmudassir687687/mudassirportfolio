@@ -1,11 +1,8 @@
 import './App.css';
-import Header from './Header';
-import Navigation from './Navigation';
 import Skills from './Skills';
 import Projects from './Projects';
 import Hobbies from './Hobbies';
 import Contact from './Contact';
-import Footer from './Footer';
 import Home from './Home';
 import {Switch, Route} from 'react-router';
 import AnimatedCursor from "react-animated-cursor"

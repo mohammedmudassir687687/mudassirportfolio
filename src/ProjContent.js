@@ -7,7 +7,7 @@ const ProjContent = () => {
     return (
         <div className='main__proj__body'>
             <div className='project__container'>
-                <img src={amazon} className="project__image"/>
+                <img src={amazon} className="project__image" alt="amazon"/>
                 <div className='project__container__right'>
                     <h3 className='project__heading'>"Amazon Clone"</h3>
                     <p className='project__description'>A Full Stack Amazon clone built using React.js, Redux, Express, Firebase Auth, FireStore, Stripe.js, react-currency-format, Material UI, CSS Flexbox with back-end NoSQL database FireStore deployed on Firebase Cloud Functions and the front-end is hosted on Firebase as well.
@@ -23,7 +23,7 @@ The website for the project is https://clone-23e58.web.app/. The back-end for th
                 <h3 className='project__heading'>"Chess"</h3>
                 <p className='project__description'>A chess game created in Python using pygame package</p>
             </div>
-            <img src={chess} className="project__image"/>
+            <img src={chess} className="project__image" alt="chess"/>
         </div>
             
     </div>

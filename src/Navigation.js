@@ -13,9 +13,9 @@ const Navigation = () => {
 
   return (
     <div className='navigation'>
-      <a className='icon' href='https://www.instagram.com/mohammedmudassir__/' target='_blank' onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><InstagramIcon fontSize='large' /></a>
-      <a className='icon' href='https://www.linkedin.com/in/mohammed-mudassir-bb604a182/' target='_blank' onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><LinkedInIcon fontSize='large' /></a>
-      <a className='icon' href='https://github.com/mohammedmudassir687687' target='_blank' onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><GitHubIcon fontSize='large' /></a>
+      <a className='icon' href='https://www.instagram.com/mohammedmudassir__/' target='_blank' rel="noreferrer" onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><InstagramIcon fontSize='large' /></a>
+      <a className='icon' href='https://www.linkedin.com/in/mohammed-mudassir-bb604a182/' target='_blank' rel="noreferrer" onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><LinkedInIcon fontSize='large' /></a>
+      <a className='icon' href='https://github.com/mohammedmudassir687687' target='_blank' rel="noreferrer" onMouseEnter={()=>play()} onMouseLeave={()=>stop()}><GitHubIcon fontSize='large' /></a>
     </div>
   )
 }

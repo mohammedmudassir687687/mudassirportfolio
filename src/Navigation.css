@@ -29,6 +29,7 @@
 
 .icon:hover {
     transform: scale(1.2);
+    color: blue;
 }
 
 /* @media (max-width: 1450px) {
