@@ -1,0 +1,15 @@
+.footer {
+    /* position: sticky; */
+    /* margin-left: 25%; */
+    /* right: 0; */
+    /* bottom: 0; */
+    width: auto;
+    background-color: black;
+    border-top: 1px solid blue;
+    text-align: center;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}

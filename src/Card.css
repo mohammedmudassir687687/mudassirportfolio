@@ -1,0 +1,25 @@
+.toggle {
+    background-color: saddlebrown;
+    color: navajowhite;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    width: 80%;
+    margin:5px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    border-top: 2px solid white;
+    border-radius: 5px;
+    padding-top:5px;
+}
+
+.toggle:hover {
+    filter: invert();
+    transform: translateY(-1em);
+    transition: 1s ease;
+}

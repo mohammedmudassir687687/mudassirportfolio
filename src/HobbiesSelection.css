@@ -1,0 +1,17 @@
+.hobbies__name__box {
+    width: 100%;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #166d3b;
+    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: beige;
+    font-style: italic;
+    border-bottom: 1px solid beige;
+}
+
+.hobbies__name__box:hover {
+    color: blue;
+}

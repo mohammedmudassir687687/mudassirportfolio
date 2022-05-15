@@ -1,0 +1,55 @@
+.main__body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  /* 
+  .main__content {
+      background-color: aliceblue;
+      display: flex;
+      width: 100%;
+      overflow-x: hidden;
+    }
+    
+    .bio__content {
+      margin-left: 5%;
+      margin-top: 2%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    } */
+  
+    .main__content {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      justify-content: space-between;
+      background-color: black;
+    }
+
+    /* .center__contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    } */
+
+    .contact__paragraph {
+      text-align: center;
+      background-color: black;
+      padding: 2%;
+      border-top: 1px solid blue;
+      width: 100%;
+      color:white;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .contact__paragraph > small:hover {
+      color:blue;
+    }
+

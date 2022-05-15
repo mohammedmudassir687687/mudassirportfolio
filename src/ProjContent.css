@@ -1,0 +1,36 @@
+.main__proj__body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* padding: 2rem; */
+    /* overflow: scroll; */
+}
+
+.project__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.project__image {
+    width: 20%;
+    height: auto;
+}
+
+.project__container__right {
+    width: 50%;
+    text-align: justify;
+}
+
+.project__heading {
+    color: blue;
+}
+
+.project__description {
+    color: beige;
+}

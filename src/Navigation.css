@@ -1,0 +1,42 @@
+.navigation {
+    width: 5%;
+    height: 100vh;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-right: 1px solid blue;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 100; */
+    /* position: fixed; */
+}
+
+/* .navigation:hover{
+    animation: mymove 3s infinite;
+} */
+
+/* @keyframes mymove {
+    from {background-color: cadetblue;}
+    to {background-color: skyblue;}
+} */
+
+.icon {
+    color: white;
+    margin: 10px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+/* @media (max-width: 1450px) {
+
+    .navigation {
+        height: 7%;
+        width: 100vw;
+        flex-direction: row;
+        border-bottom: 1px solid blue;
+    }
+} */

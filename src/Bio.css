@@ -1,0 +1,66 @@
+.bio {
+    /* position: fixed; */
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    /* background-image: url('./stars.jpg'); */
+    width: 20%;
+    min-width: 20%;
+    max-width: 20%;
+    border-right: 1px solid blue;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.animate__name {
+    color:white;
+}
+
+.animate__name:hover {
+    color: blue;
+}
+
+.bio__fixed__section {
+    top: 80px;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bio__image {
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    margin-bottom: 15px;
+}
+
+.bio__image:hover {
+    transform: scale(0.8);
+    transition: 2s ease;
+}
+
+.bio__caption {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 30px;
+    color: white;
+}
+
+/* @keyframes bio {
+    from {background-color: white;}
+    to {background-color: cornsilk;}
+} */
+
+/* @media (max-width: 1450px) {
+    .bio {
+        width: 100vw;
+        max-width: 100vw;
+    }    
+
+    .bio__fixed__section {
+        flex-direction: row;
+    }
+} */

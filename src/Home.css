@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-color: #1b2845;
+    background-image: linear-gradient(315deg, #1b2845 0%, #274060 74%);
+    background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    /* background-color: #192e5c; */
+    text-align: center;
+}
+
+.small__tag {
+    font-family: 'Square Peg', cursive;
+    font-size: larger;
+    margin-top: 15px;
+    background-color: white;
+    color: blue;
+    padding: 10px;
+}
+
+.small__tag:hover {
+    filter: invert();
+}
+
+.welcome__image {
+    z-index: 100;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 50px black;
+    border-radius: 50%;
+    
+}
+
+.image__container:hover {
+    transform: scale(0.9);
+    transition: 0.8s linear;
+}
+
+.welcome__text:hover {
+    transform: scale(1.1);
+    transition: 0.8s linear;
+}
+
+.link__button {
+    margin-left: 30px;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: white;
+}
+
+.link__button:hover {
+    /* background-color: white; */
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.welcome__heading {
+font-family: monospace;
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+border-right: .15em solid orange; /* The typwriter cursor */
+white-space: nowrap; /* Keeps the content on a single line */
+margin-bottom: 30px;
+margin-top: 20px;
+color: white;
+letter-spacing: .15em; /* Adjust as needed */
+font-weight: 700;
+font-family: 'Times New Roman', Times, serif;
+animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: orange }
+}
+
+
+

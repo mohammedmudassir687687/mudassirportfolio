@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Navigation from './Navigation';
+import Skills from './Skills';
+import Projects from './Projects';
+import Hobbies from './Hobbies';
+import Contact from './Contact';
+import Footer from './Footer';
+import Home from './Home';
+import {Switch, Route} from 'react-router';
+import AnimatedCursor from "react-animated-cursor"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Route exact path='/home' component={Home} /> */}
+      <AnimatedCursor />
+      <Switch>
+        <Route exact path='/skills' component={Skills} />
+        <Route exact path='/projects' component={Projects} />
+        <Route exact path='/hobbies' component={Hobbies} />
+        <Route exact path='/contact' component={Contact} />
+        <Route path='/' component={Home} />
+      </Switch>
     </div>
   );
 }
